@@ -31,7 +31,7 @@ const Checkout = () => {
         // else{
 
         // }
-        fetch('http://localhost:5000/orders', {
+        fetch('https://car-doctor-server-two-indol.vercel.app/orders', {
             method:'POST',
             headers:{
                 'content-type':'application/json'
